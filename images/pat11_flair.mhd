@@ -1,0 +1,8 @@
+ObjectType = Image
+NDims = 2
+BinaryData = True
+DimSize = 256 256
+ElementSize = 0.898438 0.898438
+ElementType = MET_USHORT
+ElementByteOrderMSB = True
+ElementDataFile = pat11_flair.raw
