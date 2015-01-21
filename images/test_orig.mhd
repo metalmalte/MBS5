@@ -1,0 +1,7 @@
+ObjectType = Image
+NDims = 2
+DimSize = 256 256
+ElementType = MET_SHORT
+ElementSpacing = 0.898438 0.898438
+ElementByteOrderMSB = False
+ElementDataFile = test_orig.raw

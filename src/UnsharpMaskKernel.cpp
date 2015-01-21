@@ -59,7 +59,8 @@ UnsharpMaskKernel::UnsharpMaskKernel( unsigned int hX, unsigned int hY ) :
   // Set the values of the kernel mask:
   //
   // I_out(x,y) = 2 * I(x,y) - \bar(I(x,y))
-  const double numValues = GetSizeX() * GetSizeY();
+//  const double numValues = GetSizeX() * GetSizeY();
+  const double numValues = hX * hY;
 
   for( unsigned int i = 0; i < numValues; i++ )
   {
